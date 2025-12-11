@@ -22,7 +22,7 @@ Ele apresenta três conceitos essenciais:
 
 ---
 
-#  1. Funcionalidades do módulo
+#  Funcionalidades do módulo
 
 ###  Inicialização e finalização
 
@@ -34,7 +34,7 @@ O módulo imprime mensagens no log ao ser carregado e removido usando:
 
 ---
 
-#  2. Timer Periódico no Kernel
+#   Timer Periódico no Kernel
 
 O módulo cria um timer usando:
 
@@ -49,7 +49,7 @@ A função `timer_callback()` é chamada periodicamente e:
 
 ---
 
-#  3. Acesso ao Hardware — Leitura do RTC
+#   Acesso ao Hardware — Leitura do RTC
 
 O driver lê o horário do RTC via portas CMOS:
 
