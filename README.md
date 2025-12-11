@@ -127,3 +127,7 @@ Ou:
 ```bash
 tail -f /var/log/syslog
 ```
+
+## Ambiente de Desenvolvimento e Testes
+
+Este módulo foi desenvolvido e testado em uma **máquina virtual Linux**, garantindo um ambiente seguro para compilação e carregamento de módulos de kernel.
