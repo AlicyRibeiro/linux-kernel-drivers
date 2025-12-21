@@ -1,1 +1,0 @@
-savedcmd_/home/teste/drivers/meu_driver/meu_driver.mod := printf '%s\n'   meu_driver.o | awk '!x[$$0]++ { print("/home/teste/drivers/meu_driver/"$$0) }' > /home/teste/drivers/meu_driver/meu_driver.mod
