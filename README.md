@@ -15,6 +15,8 @@ Ele apresenta três conceitos essenciais:
 ##  Estrutura dos Arquivos
 
 * meu_driver/
+* ├── images/
+* │    └── funcionamento_timer_rtc.png
 * ├── Makefile        
 * ├── meu_driver.c       
 * └── meu_driver.h
@@ -127,6 +129,16 @@ Ou:
 ```bash
 tail -f /var/log/syslog
 ```
+
+---
+
+##  Funcionamento do Módulo (Timer + RTC)
+
+A imagem abaixo mostra o funcionamento do módulo após a compilação e carregamento,
+com a execução periódica do timer e a leitura do horário do RTC exibidas no log do kernel.
+
+![Funcionamento do módulo com Timer e RTC](images/funcionamento_timer_rtc.png)
+
 
 ## Ambiente de Desenvolvimento e Testes
 
